@@ -1,0 +1,69 @@
+/* Arrière-plan */
+body {
+    background-image: url('https://th.bing.com/th/id/R.b614c788287138326cdb422b6e277cd3?rik=UlMgcBBA3n8awA&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+}
+
+.logo-img {
+    width: 400px;
+    height: auto;
+}
+
+/* Contenu principal */
+.main-content {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 200px; 
+    height: 130px; 
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid white;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    width: 80px; /* Taille de l'image */
+    height: 80px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.menu-item span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
